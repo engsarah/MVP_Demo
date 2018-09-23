@@ -1,6 +1,7 @@
 MVP Demo:
 
-This a Sample Demo Project that explains MVP with controller architecture, Also with Fragments Support.
+This a Sample Demo Project that explains MVP with controller architecture using
+both activities and fragments.
 
 This Demo Implements the following Feature: 
 	-Implement MVP + Controller architecure. 
