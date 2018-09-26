@@ -14,6 +14,7 @@ import android.widget.Toast
 import android.widget.Toolbar
 import com.bumptech.glide.Glide
 import com.etisalat.foodmenuloader.R
+import com.etisalat.foodmenuloader.R.id.imageView
 import kotlinx.android.synthetic.main.content_image_loader.*
 import java.io.ByteArrayOutputStream
 import java.io.File
