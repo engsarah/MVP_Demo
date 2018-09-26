@@ -1,4 +1,4 @@
-package com.etisalat.sampletask
+package com.etisalat.foodmenuloader
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.etisalat.sampletask.bases;
+package com.etisalat.foodmenuloader.ui.bases;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -11,8 +11,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.etisalat.sampletask.R;
+import com.etisalat.foodmenuloader.R;
 
+/**
+ * {@link BaseActivity abstract class, must be extended
+ * across any activity in the application}
+ * @param <T>
+ */
 public abstract class BaseActivity<T extends BasePresenter>
         extends AppCompatActivity implements BasePresenterListener {
     protected T presenter;

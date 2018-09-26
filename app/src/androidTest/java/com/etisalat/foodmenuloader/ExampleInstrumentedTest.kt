@@ -1,4 +1,4 @@
-package com.etisalat.sampletask
+package com.etisalat.foodmenuloader
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

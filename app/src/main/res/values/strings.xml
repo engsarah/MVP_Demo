@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">SampleTask</string>
     <string name="pleasewait">Please Wait</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="display_hint">Display Pizza Menu</string>
+    <string name="load_image_btn">Image Loader</string>
+    <string name="load_image_hint">Click below image to capture a new one</string>
+    <string name="user_hint">Click the button below to display our main menu</string>
+    <string name="title_activity_image_loader">ImageLoader</string>
+    <string name="title_toolbar_Image_Loader">ImageLoader</string>
+    <string name="title_new_features">Try our new features!</string>
+    <string name="network_unavailable">Cant load your info right now, Network unavailable</string>
 </resources>

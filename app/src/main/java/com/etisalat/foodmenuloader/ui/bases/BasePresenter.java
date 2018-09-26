@@ -1,5 +1,11 @@
-package com.etisalat.sampletask.bases;
+package com.etisalat.foodmenuloader.ui.bases;
 
+/**
+ * This class is the base class for all Presenters
+ * in the app
+ * @param <T>
+ * @param <E>
+ */
 public abstract class BasePresenter<T extends BaseController,
         E extends BasePresenterListener>
         implements BaseControllerListener {
@@ -7,7 +13,7 @@ public abstract class BasePresenter<T extends BaseController,
     protected E listener;
     protected T controller;
 
-    public BasePresenter(E listener) {
+    public BasePresenter(E listener, T controller) {
         this.listener = listener;
     }
 }
